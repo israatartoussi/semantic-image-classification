@@ -1,0 +1,21 @@
+@prefix ns1: <http://example.org/> .
+
+ns1:book ns1:AtLocation "a bookshelf",
+        "a classroom",
+        "the shelf" ;
+    ns1:CreatedBy "a writer" ;
+    ns1:HasA "knowledge" ;
+    ns1:IsA "a book" ;
+    ns1:MadeOf "Paper" ;
+    ns1:PartOf "a book",
+        "library" ;
+    ns1:RelatedTo "book",
+        "pages",
+        "reading" ;
+    ns1:UsedFor "learning" .
+
+ns1:laptop ns1:RelatedTo "desktop",
+        "laptop" ;
+    ns1:Synonym "laptop",
+        "laptop computer" .
+

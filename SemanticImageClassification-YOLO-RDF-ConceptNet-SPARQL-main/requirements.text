@@ -1,0 +1,6 @@
+Flask
+Flask-CORS
+requests
+SPARQLWrapper
+rdflib
+ultralytics
